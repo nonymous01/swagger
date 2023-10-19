@@ -1,0 +1,3 @@
+db.session.add_all([Course(name="Math"), Course(name="Francais"), Course(name="Anglais")])
+db.session.commit()
+db.session.add_all([Student(name="Moko", course_id=1), Student(name="Josisi", course_id=1), Student(name="Fred", course_id=2)])
